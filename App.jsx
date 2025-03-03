@@ -61,7 +61,7 @@ function App() {
             </p>
             <button
               onClick={() => scrollToSection("aboutMe")}
-              className="mt-6 px-6 py-2 bg-blue-400/45 text-white font-semibold rounded-lg hover:bg-rose-500 cursor-pointer transition-all"
+              className="mt-6 px-6 py-2 bg-blue-400/45 text-white font-semibold rounded-full hover:bg-rose-500 cursor-pointer transition-all"
             >
               About Me
             </button>
@@ -75,7 +75,7 @@ function App() {
           style={{ backgroundImage: "url('/rabbit.jpg')" }}
         >
           <div className="flex justify-center items-center min-h-screen"></div>
-          <div className="bg-rose-300/75 p-6 rounded-lg text-white w-full md:w-2/4 mt-21">
+          <div className="bg-rose-300/75 p-6 rounded-lg text-white w-full md:w-2/4 mt-12">
             <h1 className="text-3xl font-bold mb-4">Biodata</h1>
             <div className="text-left text-lg">
               <p><strong>Nama:</strong> Alyaa Chalta Theopania</p>
@@ -103,9 +103,9 @@ function App() {
             <div className="bg-rose-300/75 p-6 rounded-lg text-white">
               <h1 className="text-3xl font-bold mb-4">Hobi</h1>
               <div className="flex space-x-4">
-                <button className="px-4 py-2 bg-blue-400/45 text-white font-semibold rounded-lg hover:bg-rose-600 transition-all cursor-pointer" onClick={() => scrollToSection("membaca")}>Membaca</button>
-                <button className="px-4 py-2 bg-blue-400/45 text-white font-semibold rounded-lg hover:bg-rose-600 transition-all cursor-pointer" onClick={() => scrollToSection("nontonAnime")}>Menonton Anime</button>
-                <button className="px-4 py-2 bg-blue-400/45 text-white font-semibold rounded-lg hover:bg-rose-600 transition-all cursor-pointer" onClick={() => scrollToSection("game")}>Ngegame</button>
+                <button className="px-4 py-2 bg-blue-400/45 text-white font-semibold rounded-full hover:bg-rose-600 transition-all cursor-pointer" onClick={() => scrollToSection("membaca")}>Membaca</button>
+                <button className="px-4 py-2 bg-blue-400/45 text-white font-semibold rounded-full hover:bg-rose-600 transition-all cursor-pointer" onClick={() => scrollToSection("nontonAnime")}>Menonton Anime</button>
+                <button className="px-4 py-2 bg-blue-400/45 text-white font-semibold rounded-full hover:bg-rose-600 transition-all cursor-pointer" onClick={() => scrollToSection("game")}>Ngegame</button>
               </div>
             </div>
           </div>
